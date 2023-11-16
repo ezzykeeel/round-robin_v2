@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className={styles.card}>
           <span>Cristina Nylea</span>
-          <p>Fourth Priority</p>
+          <p>Third Priority</p>
           <Image
             className={styles.logo}
             src="/profile_pics/cristina.png"
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         <div className={styles.card}>
           <span>Alondra Laureano</span>
-          <p>Third Priority</p>
+          <p>Fourth Priority</p>
           <Image
             className={styles.logo}
             src="/profile_pics/alo.png"

@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <div className={styles.description}>
         <p>
-          Round Robin Rotation for 
+          Round Robin Rotation for
           <code className={styles.code}>
             &nbsp;
             {/* today's date with day name */}
@@ -32,20 +32,11 @@ export default function Home() {
 
       <div className={styles.grid}>
         <div className={styles.card}>
-          <span>Cristina Nylea</span>
+          <span>Genesis Villanueva</span>
+          <p>First Priority</p>
           <Image
             className={styles.logo}
-            src="/profile_pics/cristina.png"
-            alt="Next.js Logo"
-            width={180}
-            height={180}
-          />
-        </div>
-        <div className={styles.card}>
-          <span>Alondra Laureano</span>
-          <Image
-            className={styles.logo}
-            src="/profile_pics/alo.png"
+            src="/profile_pics/genesis.png"
             alt="Next.js Logo"
             width={180}
             height={180}
@@ -53,6 +44,7 @@ export default function Home() {
         </div>
         <div className={styles.card}>
           <span>Wendy Samines</span>
+          <p>Second Priority</p>
           <Image
             className={styles.logo}
             src="/profile_pics/wendy.png"
@@ -62,10 +54,22 @@ export default function Home() {
           />
         </div>
         <div className={styles.card}>
-          <span>Genesis Villanueva</span>
+          <span>Alondra Laureano</span>
+          <p>Third Priority</p>
           <Image
             className={styles.logo}
-            src="/profile_pics/genesis.png"
+            src="/profile_pics/alo.png"
+            alt="Next.js Logo"
+            width={180}
+            height={180}
+          />
+        </div>
+        <div className={styles.card}>
+          <span>Cristina Nylea</span>
+          <p>Fourth Priority</p>
+          <Image
+            className={styles.logo}
+            src="/profile_pics/cristina.png"
             alt="Next.js Logo"
             width={180}
             height={180}

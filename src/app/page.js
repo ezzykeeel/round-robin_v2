@@ -54,22 +54,22 @@ export default function Home() {
           />
         </div>
         <div className={styles.card}>
-          <span>Alondra Laureano</span>
-          <p>Third Priority</p>
+          <span>Cristina Nylea</span>
+          <p>Fourth Priority</p>
           <Image
             className={styles.logo}
-            src="/profile_pics/alo.png"
+            src="/profile_pics/cristina.png"
             alt="Next.js Logo"
             width={180}
             height={180}
           />
         </div>
         <div className={styles.card}>
-          <span>Cristina Nylea</span>
-          <p>Fourth Priority</p>
+          <span>Alondra Laureano</span>
+          <p>Third Priority</p>
           <Image
             className={styles.logo}
-            src="/profile_pics/cristina.png"
+            src="/profile_pics/alo.png"
             alt="Next.js Logo"
             width={180}
             height={180}
